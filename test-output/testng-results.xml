@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-27T22:20:06 IST" name="DD Regression Suite" finished-at="2026-10-27T22:20:58 IST" duration-ms="52106">
+    <groups>
+    </groups>
+    <test started-at="2026-10-27T22:20:06 IST" name="Login Tests - Chrome" finished-at="2026-10-27T22:20:58 IST" duration-ms="52106">
+      <class name="com.saurabh.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:07 IST" name="setUp" finished-at="2026-10-27T22:20:21 IST" duration-ms="14380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:07 IST" name="setUp" finished-at="2026-10-27T22:20:22 IST" duration-ms="14917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:07 IST" name="setUp" finished-at="2026-10-27T22:20:22 IST" duration-ms="14779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:07 IST" name="setUp" finished-at="2026-10-27T22:20:22 IST" duration-ms="14637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:07 IST" name="setUp" finished-at="2026-10-27T22:20:22 IST" duration-ms="14877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:22 IST" name="loginTest" description="Login with valid and invalid credentials from Excel" data-provider="loginData" finished-at="2026-10-27T22:20:38 IST" duration-ms="16449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_LOGIN_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:22 IST" name="loginTest" description="Login with valid and invalid credentials from Excel" data-provider="loginData" finished-at="2026-10-27T22:20:38 IST" duration-ms="16671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_LOGIN_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:22 IST" name="loginTest" description="Login with valid and invalid credentials from Excel" data-provider="loginData" finished-at="2026-10-27T22:20:39 IST" duration-ms="16798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_LOGIN_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:22 IST" name="loginTest" description="Login with valid and invalid credentials from Excel" data-provider="loginData" finished-at="2026-10-27T22:20:37 IST" duration-ms="14835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_LOGIN_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:22 IST" name="loginTest" description="Login with valid and invalid credentials from Excel" data-provider="loginData" finished-at="2026-10-27T22:20:40 IST" duration-ms="17852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_LOGIN_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SUCCESS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:37 IST" name="tearDown" finished-at="2026-10-27T22:20:47 IST" duration-ms="9825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:38 IST" name="tearDown" finished-at="2026-10-27T22:20:46 IST" duration-ms="8353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:38 IST" name="tearDown" finished-at="2026-10-27T22:20:49 IST" duration-ms="10118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:39 IST" name="tearDown" finished-at="2026-10-27T22:20:47 IST" duration-ms="7794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:40 IST" name="tearDown" finished-at="2026-10-27T22:20:47 IST" duration-ms="6720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:46 IST" name="setUp" finished-at="2026-10-27T22:20:53 IST" duration-ms="6859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:53 IST" name="loginTest" description="Login with valid and invalid credentials from Excel" data-provider="loginData" finished-at="2026-10-27T22:20:58 IST" duration-ms="5065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_LOGIN_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saurabh.tests.LoginTest@57ad2aa7]" started-at="2026-10-27T22:20:58 IST" name="tearDown" finished-at="2026-10-27T22:20:58 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saurabh.tests.LoginTest -->
+    </test> <!-- Login Tests - Chrome -->
+  </suite> <!-- DD Regression Suite -->
+</testng-results>
