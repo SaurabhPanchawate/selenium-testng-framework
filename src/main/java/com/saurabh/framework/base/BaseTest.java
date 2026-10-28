@@ -67,7 +67,7 @@ public class BaseTest {
         DRIVER.set(driver);
         driver.get(ConfigReader.get("baseUrl"));
     }
-
+// to close the brower
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         WebDriver driver = DRIVER.get();
